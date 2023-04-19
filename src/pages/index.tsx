@@ -1,13 +1,18 @@
-import * as React from 'react';
-import Form from 'components/Form';
-
-
+import CheckBox from "components/CheckBox";
+import FormField from "components/FormField";
+import MessageField from "components/MessageField";
+import SendButton from "components/SendButton";
+import Header from "components/Header";
+import * as React from "react";
 
 export default function Home() {
   return (
     <>
-      <h1>Solstuen</h1>
-    <Form></Form>
+      <Header></Header>
+      <FormField></FormField>
+      <CheckBox></CheckBox>
+      <MessageField></MessageField>
+      <SendButton></SendButton>
     </>
-  )
+  );
 }
